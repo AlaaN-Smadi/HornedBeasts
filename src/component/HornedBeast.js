@@ -2,6 +2,8 @@ import React from "react";
 
 
 class HornedBeast extends React.Component{
+
+
     render(){
         return(
             <div style={{textAlign:"center"}}>
