@@ -4,7 +4,7 @@ class Footer extends React.Component{
     render() {
         return (
             <div>
-                <h4 style={{textAlign:"center", marginTop:'50px'}}> Ala'a  Al Smadi</h4>
+                <h4 style={{textAlign:"center", marginTop:'50px'}}> Team Work </h4>
             </div>
         )
     }

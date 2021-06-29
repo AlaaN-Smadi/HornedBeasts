@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import { Modal, Button } from 'react-bootstrap';
 import Image from 'react-bootstrap/Image';
-import hornd from "../jasonFiles/class_01_images.json"
 
 
 

@@ -1,16 +1,12 @@
 import React from 'react';
 import hornd from "../jasonFiles/class_01_images.json"
 import HornedBeast from './HornedBeast';
-// import Modal from './Modal';
-import ModelHornedbeats from './ModelHornedbeats';
-import Button from 'react-bootstrap/Button';
+
 
 
 class Main extends React.Component {
 
-    constructor(props) {
-        super(props)
-    }
+  
 
 
 
