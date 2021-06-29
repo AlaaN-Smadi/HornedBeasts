@@ -1,20 +1,32 @@
 import React from 'react';
 import hornd from "../jasonFiles/class_01_images.json"
 import HornedBeast from './HornedBeast';
+// import Modal from './Modal';
+import ModelHornedbeats from './ModelHornedbeats';
+import Button from 'react-bootstrap/Button';
+
 
 class Main extends React.Component {
+
+    constructor(props) {
+        super(props)
+    }
+
 
 
 
     render() {
+
         return (
+
             <div style={{ marginLeft: '7%' }}>
                 {hornd.map((item, index) => {
                     return (
-                        <section key={index+100} style={{ display: 'inline-block', margin: '2%' }}>
-                            <HornedBeast image_url={item.image_url} description={item.description} title={item.title} key={index} />
+                        <section key={index + 100} style={{ display: 'inline-block', margin: '2%' }}>
 
-                            
+                            <HornedBeast style={{ z_index: "1" }} image_url={item.image_url} description={item.description} title={item.title} key={index} />
+
+
                         </section>
                     )
                 })}
