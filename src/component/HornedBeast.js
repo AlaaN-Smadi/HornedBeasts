@@ -31,7 +31,7 @@ class HornedBeast extends React.Component {
 
     render() {
         return (
-            <div style={{ textAlign: "center" }}>
+            <div style={{ textAlign: "center",display:"inline-block",margin:"5px"  }}>
                 
                 
                 <Card style={{ width: '18rem', textAlign: "center" }}>
