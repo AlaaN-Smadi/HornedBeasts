@@ -53,7 +53,7 @@ class ModelHornedbeats extends Component {
             <div>
                 <Button onClick={() => { this.handelmodal() }}> Select Item </Button>
                 
-                <Modal show={this.state.show} onHide={() => this.handelmodal()}>
+                <Modal show={this.state.show} onHide={() => this.removeModal()}>
                     <Modal.Header closeButton> 
 
                     <Modal.Title> {this.state.title} </Modal.Title>
